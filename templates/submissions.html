@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submissions</title>
+</head>
+<body>
+    <h1>All Messages</h1>
+    <ul>
+        {% for name, message in data %}
+            <li><strong>{{ name }}:</strong> {{ message }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Back to Form</a>
+</body>
+</html>

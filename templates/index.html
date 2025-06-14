@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Form App</title>
+</head>
+<body>
+    <h1>Submit Your Message</h1>
+    <form method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <a href="/submissions">View Submissions</a>
+</body>
+</html>
